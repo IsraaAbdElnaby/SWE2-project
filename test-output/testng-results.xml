@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3412" started-at="2017-05-27T09:39:08Z" finished-at="2017-05-27T09:39:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3412" started-at="2017-05-27T09:39:08Z" finished-at="2017-05-27T09:39:11Z">
+      <class name="com.src.starters.Controller.CourseControllerTest">
+        <test-method status="PASS" signature="Create_Course()[pri:0, instance:com.src.starters.Controller.CourseControllerTest@42d80b78]" name="Create_Course" duration-ms="40" started-at="2017-05-27T11:39:08Z" finished-at="2017-05-27T11:39:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Course -->
+        <test-method status="PASS" signature="Show_Courses()[pri:0, instance:com.src.starters.Controller.CourseControllerTest@42d80b78]" name="Show_Courses" duration-ms="3200" started-at="2017-05-27T11:39:08Z" finished-at="2017-05-27T11:39:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Show_Courses -->
+      </class> <!-- com.src.starters.Controller.CourseControllerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

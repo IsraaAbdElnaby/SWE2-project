@@ -1,0 +1,24 @@
+<body data-ng-app='loginApp'>
+
+ <div data-ng-controller="mycontroller as controller">
+  <div class="login">
+  <header class="header">
+    <span class="text">LOGIN</span>
+    <span class="loader"></span>
+    
+  </header>
+
+
+  <form class="form" name="frm" ng-submit="controller.checkData()" >  
+    <input data-ng-model="controller.name" class="input" type="text" placeholder="Username"  />
+    <input data-ng-model="controller.password" class="input" type="password" placeholder="Password"  />
+    <button data-ng-disabled="frm.$invalid" class="btn" type="submit" ></button>
+  </form>
+</div>
+<button class ="resetbtn" type="reset">Reset it</button>
+
+
+    
+</div>
+</body>
+
